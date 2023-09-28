@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- links -->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../styles/ajude.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+    <title>Ajude a Proposta - JDEVs</title>
+</head>
+
+
+<!-- cabeçalho -->
+
+<body>
+    <header>
+        <!-- botão -->
+        <nav class="navbar">
+            <a href="../index.html" class="logo">JDEVs</a>
+            <nav id="sandubinha">
+            <div id="menu">
+                <div id="menu-bar" onclick="menuOnClick()">
+                  <div id="bar1" class="bar"></div>
+                  <div id="bar2" class="bar"></div>
+                  <div id="bar3" class="bar"></div>
+                </div>
+                <nav class="nav" id="nav">
+                  <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li id="apoie"><a href="ajude.html">Apoie</a></li>
+                    <li><a href="redes.html">Redes Sociais</a></li>
+                  </ul>
+                </nav> 
+              </div>
+              
+              <div class="menu-bg" id="menu-bg"></div>
+            </nav>
+
+              <menu id="lista">
+                <!-- lista -->
+                <ul class="menu">
+                    <li class="nav-item">
+                        <a href="sobre.html" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item" id="apoie">
+                        <a href="ajude.html" class="nav-link">Apoie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="redes.html" class="nav-link">Redes Sociais</a>
+                    </li>
+                </ul>
+              </menu>
+
+        </nav>
+    </header>
+
+
+    <!-- conteudo -->
+    <main>
+        <div class="prin">
+            <div class="foto">
+                <h4>Parada de ônibus tecnológica</h4>
+                <h5>Por: JDEVs</h5>
+                <img src="../img/parada-final.png" alt="">
+            </div>
+
+            <div class="apoi">
+                <h1>R$ 250.000</h1>
+                <h5>Financiado por 25.000 pessoas</h5>
+                <div class="grade">
+                    <div class="bord" onmouseover="girarGrafico()"></div>
+                    <div class="graf" onclick="girarGrafico()">
+                        <h2>50%</h2>
+                    </div>
+                    <h6>100 dias restantes</h6>
+                </div>
+                <button onclick="window.location.href='obg.html'" type="button">Apoie</button>
+                <h3>Meta: R$ 500.000</h3>
+            </div>
+        </div>
+
+        <!-- acessibilidade -->
+        <div vw class="enabled" style="right:0;left:50px">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+    </main>
+
+    <!-- rodape -->
+    <footer>
+        <div class="roda">
+            <div class="roda-1">
+                <h3 class="ajuda">Precisa de Suporte?</h3>
+                <div class="idioma">
+                    <img src="../img/brasil.png" alt="">
+                    <h3>Português - BR</h3>
+                    <span class="material-symbols-outlined">
+                        keyboard_arrow_down
+                    </span>
+                </div>
+            </div>
+            <div class="roda-3">
+                <ul class="lista">
+
+                    <li>
+                        <span class="material-symbols-outlined">
+                            chat
+                        </span>
+                        <a href="#">Chat online</a>
+                    </li>
+
+                    <li>
+                        <span class="material-symbols-outlined">
+                            business_center
+                        </span>
+                        <a href="#">Email de Contato</a>
+                    </li>
+
+                    <li>
+                        <span class="material-symbols-outlined">
+                            monetization_on
+                        </span>
+                        <a href="pags/ajude.html">Ajude a Proposta</a>
+                    </li>
+
+                    <li>
+                        <img src="../img/zap.png" alt="">
+                        <a href="#" class="n"> Número de Contato</a>
+                    </li>
+
+                    <li>
+                        <img src="../img/insta.png" alt="">
+                        <a href="#" class="i"> Insta</a>
+                    </li>
+            </div>
+
+            <div class="roda-2">
+                <div class="i-privacidade">
+                    &#128712 Privacidade
+                </div>
+                <div class="i-termos">
+                    &#128712 Termos da Loja Online
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="../scripts/ajude.js"></script>
+</body>
+
+</html>

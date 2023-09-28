@@ -1,0 +1,755 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Display';
+}
+
+/* cabeçalho */
+header {
+    background-color: #051540;
+    z-index: 10;
+}
+
+li {
+    list-style: none;
+}
+
+header .navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-link {
+    transition: 0.5s ease;
+}
+
+.nav-link:hover {
+    color: #D3D3D3;
+    font-size: 20px;
+}
+
+/* animacao no apoie */
+#apoie {
+    background-color: #1F3AFF;
+    height: 35px;
+    width: 50px;
+    padding: 7px;
+    border-radius: 10px;
+    animation: balanço 2s linear infinite;
+    transition: 0.5s ease;
+    text-align: center;
+}
+
+#apoie:hover {
+    height: 40px;
+    width: 55px;
+    font-size: 20px;
+}
+
+#apoie a {
+    transition: 0.5s;
+}
+
+#apoie:hover a {
+    font-size: 20px;
+}
+
+@keyframes balanço {
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+}
+
+/* fim da animacao do apoie */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #6C7A86 ;
+  }
+  
+  #menu {
+    z-index: 2;
+  }
+  
+  #menu-bar {
+    width: 45px;
+    height: 40px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .bar {
+    height: 5px;
+    width: 100%;
+    background-color: #ffffff;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  #bar1 {
+    transform: translateY(-4px);
+  }
+  
+  #bar3 {
+    transform: translateY(4px);
+  }
+  
+  .nav {
+    transition: 0.3s ease;
+    display: none;
+  }
+  
+  .nav ul {
+    padding: 0 22px;
+    display: none;
+  }
+  
+  .nav li {
+    list-style: none;
+    padding: 12px 0;
+  }
+  
+  .nav li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    font-weight: bold;
+  }
+  
+  .menu-bg, #menu {
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  
+  .menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle, #051540, #051540);
+    border-radius: 50%;
+    transition: 0.3s ease;
+  }
+  
+  .change {
+    display: block;
+  }
+  
+  .change .bar {
+    background-color: white;
+  }
+  
+  .change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+  }
+  
+  .change #bar2 {
+    opacity: 0;
+  }
+  
+  .change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+  }
+  
+  .change-bg {
+    width: 520px;
+    height: 500px;
+    transform: translate(-60%,-30%);
+    display: none;
+  }
+  
+  .sandubinha{
+    display: none;
+  }
+
+@media only screen and (max-width:768px) {
+    .sandubinha{
+        display: block;
+    }
+    #menu-bar{
+        display: block;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .change-bg{
+        display: block;
+    }
+    .nav ul{
+        display: block;
+    }
+}
+
+#burguer {
+    color: white;
+    display: none;
+    text-align: center;
+    padding: 10px;
+    z-index: 32;
+}
+
+#burguer :hover {
+    background-color: white;
+    color: black;
+}
+
+#sanduiche{
+    display: none;
+}
+
+.menu-b{
+    display: none;
+}
+
+/* main conteudo*/
+main{
+    background-color: #D3D3D3;
+}
+.home {
+    background-color: #051540;
+    height: 650px;
+}
+
+.inicio {
+    height: 645px;
+    background-image: url(../img/Fundo\ wallpaper\ pc.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hr {
+    background-color: #BD61DD;
+    border: 1px solid #BD61DD;
+    box-shadow: 20px 0 50px 10px #BD61DD;
+    height: 630px;
+    width: 1px;
+    position: absolute;
+    top: 10px;
+}
+
+#dir {
+    position: absolute;
+    right: 0;
+    box-shadow: -20px 0 50px 10px #BD61DD;
+}
+
+.img-circulo {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 500px;
+    left: 20px;
+}
+
+.img-comp {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 535px;
+    left: 55px;
+}
+
+.titulo-1 {
+    text-align: center;
+    font-size: 45px;
+    color: #38b6ff;
+    background-color: #051540;
+    position: absolute;
+    right: 120px;
+    top: 170px;
+    padding: 0px;
+    border-radius: 30px;
+    width: 500px;
+    padding: 2px 0 2px 0;
+    text-shadow: #38b6ff 3px 0 10px;
+}
+
+.titulo-2 {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    width: 360px;
+    position: absolute;
+    right: 190px;
+    top: 270px;
+    color: #d2d8ff;
+    z-index: 2;
+    text-shadow: #5e5a5a 3px 0 2px;
+}
+
+.bolinha-1 {
+    background-color: #051540;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    right: 410px;
+    top: 290px;
+    z-index: 1;
+}
+
+.bolinha-2 {
+    background-color: #051540;
+    width: 105px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    right: 220px;
+    top: 250px;
+    z-index: 1;
+}
+
+.bolinha-3 {
+    background-color: #051540;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    right: 250px;
+    top: 350px;
+    z-index: 1;
+}
+
+.bolinha-4 {
+    background-color: #051540;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 345px;
+    top: 315px;
+    z-index: 1;
+}
+
+.circulo-titulo-1 {
+    position: absolute;
+    right: 580px;
+    top: 190px;
+    width: 60px;
+    height: 60px;
+    z-index: 4;
+}
+
+.circulo-titulo-2 {
+    z-index: 2;
+    position: absolute;
+    right: 110px;
+    top: 150px;
+    width: 50px;
+    height: 50px;
+}
+
+.branco {
+    background-color: #051540;
+    height: 110px;
+}
+
+.icon {
+    content: "f186";
+    font-family: fontAwesome;
+    z-index: 3;
+}
+
+.blocos {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d8d6d6;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: 800px;
+}
+
+.qua {
+    background-color: #051540;
+    width: 300px;
+    height: 400px;
+    border: solid #d2d8ff 10px;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0px 0px 20px 10px blue;
+}
+
+.t {
+    color: #fff;
+    font-size: 35px;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    padding: 50px;
+}
+
+main .material-symbols-outlined {
+    color: #fff;
+    font-size: 140px;
+}
+
+.info {
+    background-color: #d8d6d6;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    padding-bottom: 120px;
+}
+
+.text {
+    background-color: #051540;
+    color: #fff;
+    padding: 30px;
+    width: 90%;
+    border-radius: 35px;
+    font-size: 35px;
+}
+
+.txt {
+    font-size: 27px;
+}
+
+main div h4 {
+    font-size: 35px;
+    font-family: Roboto;
+    text-align: justify;
+}
+
+/*rodape*/
+footer {
+    background-color: #051540;
+    color: #fff;
+    height: 300px;
+    padding: 15px 40px 20px 40px;
+    box-shadow: -10px -10px 10px 20px #051540;
+
+}
+
+footer li img {
+    width: 20px;
+    height: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px;
+}
+.roda-1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.ajuda{
+    font-size: 27.2px;
+}
+
+.idioma {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+.roda-2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-size: 13.2px;
+}
+.lista {
+    padding: 5px;
+    font-size: 18.5px;
+}
+.n {
+
+    padding-left: 9px;
+
+}
+.idioma img {
+    width: 25px;
+    height: 20px;
+}
+
+.i {
+    padding-left: 9px;
+} 
+.lista li a {
+    position: relative;
+    top: -6px;
+}
+.espaco{
+    height: 300px;
+}
+
+/*fim do rodape*/
+@media(max-width:800px) {
+    .blocos {
+        display: block;
+        background-color: #d8d6d6;
+        height: 1700px;
+    }
+
+    .qua {
+        background-color: #051540;
+        margin-bottom: 60px;
+        width: 300px;
+        height: 400px;
+        border: solid #d2d8ff 10px;
+        border-radius: 35px;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        box-shadow: 0px 0px 20px 10px blue;
+    }
+}
+
+@media(max-width:768px) {
+      footer {
+        height: 350px;
+        padding: 25px 20px 10px 20px;
+    }
+
+    .fundo {
+        background-size: cover;
+        width: 400px;
+        height: 380px;
+    }
+
+    .home {
+        height: 400px;
+        overflow: hidden;
+        position: relative;
+    }
+    .hr{
+        height: 630px;
+        position: absolute;
+        left: 0;
+    }
+    #dir{
+        position: absolute;
+        left: 100%;
+    }
+    .inicio{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .bolinha-1{
+        top: auto;
+        right: auto;
+    }
+    .bolinha-2{
+        top: auto;
+    }
+    .bolinha-3{
+        top: auto;
+    }
+    .bolinha-4{
+        top: auto;
+    }
+    .img-circulo{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: auto;
+
+    }
+    .img-comp {
+        background-color: red;
+        width: 50px;
+        height: 50px;
+        top: auto;
+        right: 0;
+        
+    }
+    .txt {
+        font-size: 22px;
+        
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    header{
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    .menu-bar {
+        display: block;
+    }
+
+    .menu-bar img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #lista {
+        display: none;
+        text-align: left;
+    }
+
+    #sanduiche{
+        display: none;
+    }
+
+    .menu-b{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #051540;
+        transition: width 1.5rem;
+        position: fixed;
+        gap: 100px;
+        top: 0px;
+        left: 0;
+        z-index: 30;
+        width: 35%;
+        height: 100%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .menu-bar .menu-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        width: 0;
+        transition: width 0.5s;
+        position: fixed;
+        height: 100%;
+    }
+
+    .menu-bar:hover .menu-container {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 70%;
+        background: black;
+    }
+
+    #burguer {
+        color: white;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    #burguer :hover {
+        background-color: white;
+        color: black;
+    }
+
+    /* conteudo */
+    .titulo-1 {
+        font-size: 30px;
+        position: absolute;
+        top: 40px;
+        right: auto;
+        left: auto;
+        width: 300px;
+    }
+
+    .titulo-2 {
+        font-size: 30px;
+        position: absolute;
+        right: auto;
+        left: auto;
+        top: 90px;
+    }
+
+    .img-circulo {
+        position: absolute;
+        top: 370px;
+    }
+
+    .img-comp {
+        position: absolute;
+        top: 405px;
+    }
+    .text{
+        width: 95%;
+    }
+    .text h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    /* .ace .enabled{
+        background-color: red;
+        margin-right: 200px;
+        position: relative;
+        right: 1000px;
+        z-index: 30px;
+    } */
+}
