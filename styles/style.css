@@ -482,9 +482,58 @@ footer {
     color: #fff;
     height: 250px;
     padding: 15px 40px 20px 40px;
-    
-
 }
+.roda{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.roda-1{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    
+}
+
+.roda-1 a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.logos{
+    display: flex;
+}
+.logos-2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.circulo{
+    width: 80px;
+    height: 80px;
+}
+.comp{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: 60px;
+    top: 20px;
+}
+.termos{
+    display: flex;
+    gap: 10px;
+}
+.Politica-privacidade{
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+}
+
+
+
+
 
 
 .idioma {
@@ -493,11 +542,11 @@ footer {
     align-items: center;
     text-align: center;
 }
-.roda-2{
+
+.roda-2 .logos-1{
     display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
-    font-size: 13.2px;
+    
+    
 }
 
 .idioma img {
