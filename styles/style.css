@@ -476,34 +476,16 @@ main div h4 {
 }
 
 /*rodape*/
+
 footer {
     background-color: #051540;
     color: #fff;
-    height: 300px;
+    height: 250px;
     padding: 15px 40px 20px 40px;
-    box-shadow: -10px -10px 10px 20px #051540;
+    
 
 }
 
-footer li img {
-    width: 20px;
-    height: 20px;
-}
-
-li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 5px;
-}
-.roda-1{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 20px;
-}
-.ajuda{
-    font-size: 27.2px;
-}
 
 .idioma {
     display: flex;
@@ -517,27 +499,12 @@ li a {
     padding-top: 30px;
     font-size: 13.2px;
 }
-.lista {
-    padding: 5px;
-    font-size: 18.5px;
-}
-.n {
 
-    padding-left: 9px;
-
-}
 .idioma img {
     width: 25px;
     height: 20px;
 }
 
-.i {
-    padding-left: 9px;
-} 
-.lista li a {
-    position: relative;
-    top: -6px;
-}
 .espaco{
     height: 300px;
 }
