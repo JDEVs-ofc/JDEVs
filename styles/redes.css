@@ -272,210 +272,93 @@ main {
 
 }
 
-.caixa {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-}
 
-.redes {
-    font-family: 'Big Shoulders Display';
-    display: flex;
-    background-color: #051540;
-    border-radius: 20px;
-    width: 300px;
-    height: 50px;
-    color: #38B6FF;
-    font-size: 40px;
-    padding-top: 2px;
-    padding-left: 60px;
-    text-align: center;
-    margin-top: 20px;
-    gap: 10px;
-    text-shadow: 3px 0 7px #38B6FF;
-}
-
-.redes img {
-    width: 50px;
-    height: 50px;
-    padding-bottom: 5px;
-}
-
-.colunas img {
-    width: 45px;
-    height: 45px;
-}
-
-.colunas {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Outfit', sans-serif;
-    display: flex;
-    justify-content: space-around;
-    color: #F9D4FA;
-    text-shadow: 3px 0 7px #F9D4FA;
-    font-size: 30px;
-    gap: 300px;
-    padding: 10px 10px 10px 10px;
-    margin: 7%;
-    
-
-}
-
-.insta {
-    display: flex;
-    width: 300px;
-    height: 60px;
-    background-color: #051540;
-    padding: 6px 2px 4px 20px;
-    border-radius: 30px;
-    gap: 10px;
-    cursor: pointer;
-}
-
-.coluna-1 {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.coluna-2 {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-
-}
-
-.insta p {
-    padding: 3px 0 0 0;
-}
-
-.x {
-    display: flex;
-    width: 300px;
-    height: 60px;
-    background-color: #051540;
-    padding: 6px 2px 4px 20px;
-    border-radius: 30px;
-    gap: 10px;
-    cursor: pointer;
-}
-
-.x p {
-    padding: 3px 0 0 0;
-}
-
-.face {
-    display: flex;
-    width: 300px;
-    height: 60px;
-    background-color: #051540;
-    padding: 6px 2px 4px 20px;
-    border-radius: 30px;
-    gap: 10px;
-    cursor: pointer;
-}
-
-.face p {
-    padding: 3px 0 0 0;
-}
-
-.you {
-    display: flex;
-    width: 300px;
-    height: 60px;
-    background-color: #051540;
-    padding: 6px 2px 4px 20px;
-    border-radius: 30px;
-    gap: 10px;
-    cursor: pointer;
-}
-
-.you img {
-    border-radius: 10px;
-}
-
-.you p {
-    padding: 3px 0 0 0;
-}
-
-.tiktok {
-    display: flex;
-    width: 300px;
-    height: 60px;
-    background-color: #051540;
-    padding: 1px 2px 4px 20px;
-    border-radius: 30px;
-    gap: 10px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.t {
-    display: flex;
-    width: 300px;
-    height: 60px;
-    background-color: #051540;
-    padding: 6px 2px 4px 20px;
-    border-radius: 30px;
-    gap: 10px;
-    cursor: pointer;
-}
-
-.t p {
-    padding: 3px 0 0 0;
-}
-
-.t img {
-    border-radius: 10px;
-}
-
-.tiktok img {
-    width: 50px;
-    height: 65px;
-    border-radius: 20px;
-}
 
 
 /*rodape*/
 footer {
-    font-family: 'Big Shoulders Display';
     background-color: #051540;
     color: #fff;
-    height: 300px;
+    height: 200px;
     padding: 15px 40px 20px 40px;
-    box-shadow: -10px -10px 10px 20px #051540;
-    margin-top: 120px;
 
 }
 
-footer li img {
-    width: 20px;
-    height: 20px;
-}
-
-li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 5px;
-}
-
-.idioma img {
-    width: 25px;
-    height: 20px;
-}
-
-.roda-1 {
+.roda {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+}
+.roda-1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
-.ajuda {
-    font-size: 27.2px;
+.roda-1 a {
+    color: #fff;
+    font-size: 20px;
+   
+}
+
+.roda-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.logos-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #E1EBFA;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px #785499;
+
+}
+
+.logos-2 {
+    font-size: 29px;
+    text-shadow: 0px 0px 15px #fff;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.comp {
+    margin-top: 3px;
+    width: 43px;
+    height: 43px;
+}
+
+.termos {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.Politica-privacidade {
+    border-right: 3px solid #fff;
+    padding-right: 10px;
+
 }
 
 .idioma {
@@ -485,31 +368,9 @@ li a {
     text-align: center;
 }
 
-.roda-2 {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
-    font-size: 13.2px;
-}
-
-.lista {
-    padding: 5px;
-    font-size: 18.5px;
-}
-
-.n {
-
-    padding-left: 9px;
-
-}
-
-.i {
-    padding-left: 9px;
-}
-
-.lista li a {
-    position: relative;
-    top: -6px;
+.idioma img {
+    width: 25px;
+    height: 20px;
 }
 
 /*fim do rodape*/
