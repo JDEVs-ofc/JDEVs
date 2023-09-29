@@ -441,41 +441,88 @@ main {
 
 /*rodape*/
 footer {
-    font-family: 'Big Shoulders Display';
     background-color: #051540;
     color: #fff;
-    height: 300px;
+    height: 200px;
     padding: 15px 40px 20px 40px;
-    box-shadow: -10px -10px 10px 20px #051540;
-    margin-top: 120px;
 
 }
 
-footer li img {
-    width: 20px;
-    height: 20px;
-}
-
-li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 5px;
-}
-
-.idioma img {
-    width: 25px;
-    height: 20px;
-}
-
-.roda-1 {
+.roda {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+}
+.roda-1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
-.ajuda {
-    font-size: 27.2px;
+.roda-1 a {
+    color: #fff;
+    font-size: 20px;
+   
+}
+
+.roda-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.logos-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #E1EBFA;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px #785499;
+
+}
+
+.logos-2 {
+    font-size: 29px;
+    text-shadow: 0px 0px 15px #fff;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.comp {
+    margin-top: 3px;
+    width: 43px;
+    height: 43px;
+}
+
+.termos {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.Politica-privacidade {
+    border-right: 3px solid #fff;
+    padding-right: 10px;
+
 }
 
 .idioma {
@@ -485,31 +532,9 @@ li a {
     text-align: center;
 }
 
-.roda-2 {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
-    font-size: 13.2px;
-}
-
-.lista {
-    padding: 5px;
-    font-size: 18.5px;
-}
-
-.n {
-
-    padding-left: 9px;
-
-}
-
-.i {
-    padding-left: 9px;
-}
-
-.lista li a {
-    position: relative;
-    top: -6px;
+.idioma img {
+    width: 25px;
+    height: 20px;
 }
 
 /*fim do rodape*/
