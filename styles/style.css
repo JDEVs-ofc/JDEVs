@@ -112,70 +112,71 @@ header .navbar a {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #6C7A86 ;
-  }
-  
-  #menu {
+    background-color: #6C7A86;
+}
+
+#menu {
     z-index: 2;
-  }
-  
-  #menu-bar {
+}
+
+#menu-bar {
     width: 45px;
     height: 40px;
     margin: 30px 0 20px 20px;
     cursor: pointer;
     display: none;
-  }
-  
-  .bar {
+}
+
+.bar {
     height: 5px;
     width: 100%;
     background-color: #ffffff;
     display: block;
     border-radius: 5px;
     transition: 0.3s ease;
-  }
-  
-  #bar1 {
+}
+
+#bar1 {
     transform: translateY(-4px);
-  }
-  
-  #bar3 {
+}
+
+#bar3 {
     transform: translateY(4px);
-  }
-  
-  .nav {
+}
+
+.nav {
     transition: 0.3s ease;
     display: none;
-  }
-  
-  .nav ul {
+}
+
+.nav ul {
     padding: 0 22px;
     display: none;
-  }
-  
-  .nav li {
+}
+
+.nav li {
     list-style: none;
     padding: 12px 0;
-  }
-  
-  .nav li a {
+}
+
+.nav li a {
     color: white;
     font-size: 20px;
     text-decoration: none;
-  }
-  
-  .nav li a:hover {
+}
+
+.nav li a:hover {
     font-weight: bold;
-  }
-  
-  .menu-bg, #menu {
+}
+
+.menu-bg,
+#menu {
     top: 0;
     left: 0;
     position: absolute;
-  }
-  
-  .menu-bg {
+}
+
+.menu-bg {
     z-index: 1;
     width: 0;
     height: 0;
@@ -183,60 +184,65 @@ body {
     background: radial-gradient(circle, #051540, #051540);
     border-radius: 50%;
     transition: 0.3s ease;
-  }
-  
-  .change {
+}
+
+.change {
     display: block;
-  }
-  
-  .change .bar {
+}
+
+.change .bar {
     background-color: white;
-  }
-  
-  .change #bar1 {
+}
+
+.change #bar1 {
     transform: translateY(4px) rotateZ(-45deg);
-  }
-  
-  .change #bar2 {
+}
+
+.change #bar2 {
     opacity: 0;
-  }
-  
-  .change #bar3 {
+}
+
+.change #bar3 {
     transform: translateY(-6px) rotateZ(45deg);
-  }
-  
-  .change-bg {
+}
+
+.change-bg {
     width: 520px;
     height: 500px;
-    transform: translate(-60%,-30%);
+    transform: translate(-60%, -30%);
     display: none;
-  }
-  
-  .sandubinha{
+}
+
+.sandubinha {
     display: none;
-  }
+}
 
 @media only screen and (max-width:768px) {
-    .sandubinha{
+    .sandubinha {
         display: block;
     }
-    #menu-bar{
+
+    #menu-bar {
         display: block;
     }
-    .logo{
+
+    .logo {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .navbar{
+
+    .navbar {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .change-bg{
+
+    .change-bg {
         display: block;
     }
-    .nav ul{
+
+    .nav ul {
         display: block;
     }
 }
@@ -254,18 +260,19 @@ body {
     color: black;
 }
 
-#sanduiche{
+#sanduiche {
     display: none;
 }
 
-.menu-b{
+.menu-b {
     display: none;
 }
 
 /* main conteudo*/
-main{
+main {
     background-color: #D3D3D3;
 }
+
 .home {
     background-color: #051540;
     height: 650px;
@@ -488,7 +495,8 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-.roda-1{
+
+.roda-1 {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -497,7 +505,7 @@ footer {
 .roda-1 a {
     color: #fff;
     font-size: 20px;
-   
+
 }
 
 .roda-2 {
@@ -531,7 +539,8 @@ footer {
     font-size: 29px;
     text-shadow: 0px 0px 15px #fff;
 }
-.redes{
+
+.redes {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -572,7 +581,8 @@ footer {
     width: 25px;
     height: 20px;
 }
-.espaco{
+
+.espaco {
     height: 300px;
 }
 
@@ -601,7 +611,7 @@ footer {
 }
 
 @media(max-width:768px) {
-      footer {
+    footer {
         height: 350px;
         padding: 25px 20px 10px 20px;
     }
@@ -617,16 +627,19 @@ footer {
         overflow: hidden;
         position: relative;
     }
-    .hr{
+
+    .hr {
         height: 630px;
         position: absolute;
         left: 0;
     }
-    #dir{
+
+    #dir {
         position: absolute;
         left: 100%;
     }
-    .inicio{
+
+    .inicio {
         height: 400px;
         display: flex;
         flex-direction: column;
@@ -634,49 +647,56 @@ footer {
         align-items: center;
         position: relative;
     }
-    .bolinha-1{
+
+    .bolinha-1 {
         top: auto;
         right: auto;
     }
-    .bolinha-2{
+
+    .bolinha-2 {
         top: auto;
     }
-    .bolinha-3{
+
+    .bolinha-3 {
         top: auto;
     }
-    .bolinha-4{
+
+    .bolinha-4 {
         top: auto;
     }
-    .img-circulo{
+
+    .img-circulo {
         position: absolute;
         width: 50px;
         height: 50px;
         top: auto;
 
     }
+
     .img-comp {
         background-color: red;
         width: 50px;
         height: 50px;
         top: auto;
         right: 0;
-        
+
     }
+
     .txt {
         font-size: 22px;
-        
+
     }
 
 }
 
 @media only screen and (max-width:768px) {
-    header{
+    header {
         position: sticky;
         top: 0;
         left: 0;
         width: 100%;
     }
-    
+
     .menu-bar {
         display: block;
     }
@@ -691,11 +711,11 @@ footer {
         text-align: left;
     }
 
-    #sanduiche{
+    #sanduiche {
         display: none;
     }
 
-    .menu-b{
+    .menu-b {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -745,6 +765,13 @@ footer {
         color: black;
     }
 
+    #apoie {
+        height: 40px;
+        width: 55px;
+        text-align: center;
+        align-items: center;
+    }
+
     /* conteudo */
     .titulo-1 {
         font-size: 30px;
@@ -772,12 +799,14 @@ footer {
         position: absolute;
         top: 405px;
     }
-    .text{
+
+    .text {
         width: 95%;
     }
-    .text h2{
+
+    .text h2 {
         font-size: 40px;
         text-align: center;
     }
-    
+
 }
