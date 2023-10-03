@@ -26,7 +26,6 @@ header .navbar a {
     align-items: center;
     justify-content: space-between;
     padding: 0 34px;
-
 }
 
 .logo {
@@ -489,7 +488,6 @@ footer {
     color: #fff;
     height: 200px;
     padding: 15px 40px 20px 40px;
-
 }
 
 .roda {
@@ -506,7 +504,6 @@ footer {
 .roda-1 a {
     color: #fff;
     font-size: 20px;
-
 }
 
 .roda-2 {
@@ -514,8 +511,6 @@ footer {
     flex-direction: column;
     gap: 20px;
 }
-
-
 
 .logos {
     display: flex;
@@ -533,7 +528,6 @@ footer {
     border: 3px solid #E1EBFA;
     border-radius: 50px;
     box-shadow: 0px 0px 20px #785499;
-
 }
 
 .logos-2 {
@@ -568,7 +562,6 @@ footer {
 .Politica-privacidade {
     border-right: 3px solid #fff;
     padding-right: 10px;
-
 }
 
 .idioma {
@@ -814,43 +807,39 @@ footer {
         align-items: center;
     }
 
-    /* conteudo */
-    .titulo-1 {
-        font-size: 30px;
-        position: absolute;
-        top: 40px;
-        right: auto;
-        left: auto;
-        width: 300px;
+    footer {
+        height: 350px;
+        padding: 25px 20px 10px 20px;
     }
 
-    .titulo-2 {
-        font-size: 30px;
-        position: absolute;
-        right: auto;
-        left: auto;
-        top: 90px;
+    .home {
+        display: none;
     }
 
-    .img-circulo {
-        position: absolute;
-        top: 370px;
+    .home-cell {
+        width: 100%;
+        height: auto;
     }
 
-    .img-comp {
-        position: absolute;
-        top: 405px;
+    .fundo-cell {
+        background-image: url("../img/download-_1_.jpg");
+        background-size: 100%;
     }
 
-    .text {
-        width: 95%;
-    }
-
-    .text h2 {
-        font-size: 40px;
+    .titulo1-cell {
         text-align: center;
+        font-size: 45px;
+        color: #38b6ff;
+        background-color: transparent;
+        position: absolute;
+        right: 120px;
+        top: 170px;
+        padding: 0px;
+        border-radius: 30px;
+        width: 500px;
+        padding: 2px 0 2px 0;
+        text-shadow: #38b6ff 3px 0 10px;
     }
-
 }
 @media(max-width:768px) and (min-width:500px){
     .logos{
