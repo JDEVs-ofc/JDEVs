@@ -703,6 +703,8 @@ footer {
     .fundo-cell {
         background-image: url("../img/download-_1_.jpg");
         background-size: 100%;
+        min-height: 1300px;
+        background-repeat: no-repeat;
     }
 
     .titulo1-cell {
@@ -718,5 +720,15 @@ footer {
         width: 500px;
         padding: 2px 0 2px 0;
         text-shadow: #38b6ff 3px 0 10px;
+    }
+
+    .img-comp-cell {
+        width: 60px;
+        height: 60px; 
+    }
+
+    .img-circulo-cell {
+        width: 130px;
+        height: 130px;
     }
 }
