@@ -829,12 +829,13 @@ footer {
     .home-cell {
         width: 100%;
         height: auto;
+        display: block;
     }
 
     .fundo-cell {
         background-image: url("../img/download-_1_.jpg");
         background-size: 100%;
-        min-height: 1300px;
+        min-height: auto;
         background-repeat: no-repeat;
     }
 
@@ -851,6 +852,18 @@ footer {
         width: 500px;
         padding: 2px 0 2px 0;
         text-shadow: #38b6ff 3px 0 10px;
+    }
+
+    .titulo2-cell {
+        text-align: center;
+        font-size: 40px;
+        width: 360px;
+        position: absolute;
+        right: 190px;
+        top: 270px;
+        color: #d2d8ff;
+        z-index: 2;
+        text-shadow: #5e5a5a 3px 0 2px;
     }
 
     .img-comp-cell {
