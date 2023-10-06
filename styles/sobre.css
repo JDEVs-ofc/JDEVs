@@ -562,7 +562,7 @@ footer {
         width: 350px;
         padding: 10px 10px 10px 10px;
     }
-
+   
     h4 {
         font-size: 20px;
     }
@@ -703,5 +703,10 @@ footer {
 @media(max-width:768px) and (min-width:500px){
     .logos{
         margin-top: -9%;
+    }
+}
+@media(max-width:1299px) and (min-width:1081px){
+    .txt h4{
+        font-size: 25px;
     }
 }
