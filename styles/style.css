@@ -5,6 +5,11 @@
     font-family: 'Big Shoulders Display';
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #6C7A86;
+}
+
 /* cabeçalho */
 header {
     background-color: #051540;
@@ -109,11 +114,6 @@ header .navbar a {
 
 /* fim da animacao do apoie */
 
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #6C7A86;
-}
-
 #menu {
     z-index: 2;
 }
@@ -216,36 +216,6 @@ body {
     display: none;
 }
 
-@media only screen and (max-width:768px) {
-    .sandubinha {
-        display: block;
-    }
-
-    #menu-bar {
-        display: block;
-    }
-
-    .logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .navbar {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .change-bg {
-        display: block;
-    }
-
-    .nav ul {
-        display: block;
-    }
-}
-
 #burguer {
     color: white;
     display: none;
@@ -305,7 +275,7 @@ main {
     box-shadow: -20px 0 50px 10px #BD61DD;
 }
 
-.comp-home{
+.comp-home {
     width: 90px;
     height: 90px;
     border: 3px solid #E1EBFA;
@@ -317,7 +287,6 @@ main {
     position: absolute;
     left: 30px;
     bottom: 20px;
-
 }
 
 .img-comp {
@@ -489,7 +458,6 @@ main div h4 {
     text-align: justify;
 }
 
-
 /*rodape*/
 footer {
     background-color: #051540;
@@ -589,30 +557,65 @@ footer {
 }
 
 /*fim do rodape*/
-@media(max-width:800px) {
-    .blocos {
-        display: block;
-        background-color: #d8d6d6;
-        height: 1700px;
+
+/* responsividade */
+
+@media(max-width:1006px) and (min-width:801px) {
+    .t {
+        font-size: 25px;
     }
 
-    .qua {
-        background-color: #051540;
-        margin-bottom: 60px;
-        width: 300px;
-        height: 400px;
-        border: solid #d2d8ff 10px;
-        border-radius: 35px;
+    .blocos {
         display: flex;
         flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
+        justify-content: center;
         align-items: center;
-        box-shadow: 0px 0px 20px 10px blue;
+        gap: 50px;
+        padding-top: 60px;
+        padding-bottom: 50px;
+        height: auto;
     }
 }
 
-@media(max-width:768px) {
+@media(max-width:970px) and (min-width:768px) {
+    .home {
+        height: auto;
+    }
+
+    .inicio {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .sandubinha {
+        display: block;
+    }
+
+    #menu-bar {
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .change-bg {
+        display: block;
+    }
+
+    .nav ul {
+        display: block;
+    }
+
     footer {
         height: 300px;
         padding: 30px 20px 10px 20px;
@@ -630,7 +633,6 @@ footer {
         flex-direction: row;
         justify-content: center;
         align-items: end;
-
     }
 
     .roda-1 a {
@@ -657,7 +659,6 @@ footer {
         justify-content: end;
         font-size: 15px;
     }
-
 
     .redes img {
         width: 25px;
@@ -719,7 +720,6 @@ footer {
         width: 50px;
         height: 50px;
         top: auto;
-
     }
 
     .img-comp {
@@ -728,17 +728,12 @@ footer {
         height: 50px;
         top: auto;
         right: 0;
-
     }
 
     .txt {
         font-size: 22px;
-
     }
 
-}
-
-@media only screen and (max-width:768px) {
     header {
         position: sticky;
         top: 0;
@@ -833,13 +828,20 @@ footer {
     .home-cell {
         width: 100%;
         height: auto;
+        display: block;
     }
 
     .fundo-cell {
-        background-image: url("../img/download-_1_.jpg");
+        background-image: url("../img/download-_1_\(1\).jpg");
         background-size: 100%;
-        min-height: 1300px;
+        min-height: 600px;
         background-repeat: no-repeat;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        position: relative;
     }
 
     .titulo1-cell {
@@ -848,51 +850,123 @@ footer {
         color: #38b6ff;
         background-color: transparent;
         position: absolute;
-        right: 120px;
-        top: 170px;
         padding: 0px;
         border-radius: 30px;
-        width: 500px;
+        width: auto;
         padding: 2px 0 2px 0;
         text-shadow: #38b6ff 3px 0 10px;
     }
 
-    .img-comp-cell {
-        width: 60px;
-        height: 60px;
+    .titulo2-cell {
+        text-align: center;
+        font-size: 40px;
+        width: auto;
+        position: absolute;
+        color: #d2d8ff;
+        z-index: 2;
+        text-shadow: #5e5a5a 3px 0 2px;
     }
 
-    .img-circulo-cell {
-        width: 130px;
-        height: 130px;
+    .img-comp-cell {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid #E1EBFA;
+        border-radius: 50%;
+        box-shadow: 0 0 20px #785499;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 20px;
+    }
 }
-}
-@media(max-width:768px) and (min-width:500px){
-    .logos{
+
+@media(max-width:768px) and (min-width:500px) {
+    .logos {
         margin-top: -9%;
     }
-
 }
-@media(max-width:1006px) and (min-width:801px){
-  .t{
-    font-size: 25px;
-  }
-   .blocos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    padding-top: 70px;
-    padding-bottom: 50px;
-    height: auto;
-  }
-  }
-@media(max-width:970px) and (min-width:768px){
- .home{
-    height: auto;
- }
- .inicio{
-    height: 500px;
- }
+
+@media(max-width:800px) {
+    .blocos {
+        display: block;
+        background-color: #d8d6d6;
+        height: 1600px;
+        padding-top: 140px;
+    }
+
+    .qua {
+        background-color: #051540;
+        margin-bottom: 60px;
+        width: 300px;
+        height: 400px;
+        border: solid #d2d8ff 10px;
+        border-radius: 35px;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        box-shadow: 0px 0px 20px 10px blue;
+    }
+}
+
+@media (min-width:412px) {
+    .titulo1-cell {
+        font-size: 45px;
+        position: absolute;
+        top: 100px;
+        width: auto;
+    }
+
+    .titulo2-cell {
+        font-size: 35px;
+        position: absolute;
+        top: 180px;
+    }
+
+    .fundo-cell {
+        min-height: 800px;
+        background-image: url('../img/download-_1_.jpg');
+    }
+
+    .circle {
+        width: 70px;
+        height: 70px;
+    }
+
+    .img-comp-cell {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (min-width:375px) {
+    .fundo-cell {
+        height: 700px;
+    }
+}
+
+@media (min-width:320px) {
+    .titulo1-cell {
+        font-size: 35px;
+        position: absolute;
+        top: 100px;
+    }
+
+    .titulo2-cell {
+        font-size: 30px;
+        position: absolute;
+        top: 160px;
+    }
+
+    .fundo-cell {
+        height: 610px;
+    }
 }
