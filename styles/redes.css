@@ -15,7 +15,7 @@ header {
 }
 
 .tamanho-do-main {
-    height: 900px;
+    height: auto;
     position: relative;
 }
 
@@ -57,20 +57,40 @@ header {
     z-index: 1000000000;
 }
 
-.texto-grande {
+.textinho{
     display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 10px;
+    border: solid 2px #051540;
     background-color: #051540;
     color: #fff;
-    top: -200px;
-    left: 570px;
-    width: 200px;
-    height: 80px;
+    font-weight: bold;
+    width: 130px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
 }
+
+#tablet{
+    
+}
+
+#carrossel-1{
+    left: 10px;
+    position: relative;
+}
+
+.flecha{
+    position: relative;
+    border-radius: 50%;
+    border-color: #051540;
+    height: 50px;
+    width: 50px;
+    color: #051540;
+    font-size: 25px;
+    background-color: transparent;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
 
 li {
     list-style: none;
@@ -556,7 +576,6 @@ footer {
         height: 100%;
         border-radius: 0 10px 10px 0;
     }
-
 
     .menu-bar .menu-container {
         display: flex;
