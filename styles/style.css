@@ -950,6 +950,7 @@ footer {
 @media (min-width:375px) {
     .fundo-cell {
         height: 700px;
+        background-image: url('../img/download-_1_.jpg');
     }
 }
 
@@ -968,5 +969,6 @@ footer {
 
     .fundo-cell {
         height: 610px;
+        background-image: url('../img/download-_1_.jpg');
     }
 }

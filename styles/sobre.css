@@ -73,8 +73,6 @@ header .navbar a {
     font-size: 20px;
 }
 
-
-
 @keyframes balanço {
 
     0%,
@@ -245,36 +243,37 @@ body {
     .nav ul {
         display: block;
     }
+    .menu-b {
+        display: none;
+    }
+    
+    #burguer {
+        color: white;
+        display: none;
+        text-align: center;
+        padding: 10px;
+        z-index: 32;
+    }
+    
+    #apoie {
+        height: 40px;
+        width: 55px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #burguer :hover {
+        background-color: white;
+        color: black;
+    }
+    
+    #sanduiche {
+        display: none;
+    }
 }
 
 
-.menu-b {
-    display: none;
-}
 
-#burguer {
-    color: white;
-    display: none;
-    text-align: center;
-    padding: 10px;
-    z-index: 32;
-}
-
-#apoie {
-    height: 40px;
-    width: 55px;
-    text-align: center;
-    align-items: center;
-}
-
-#burguer :hover {
-    background-color: white;
-    color: black;
-}
-
-#sanduiche {
-    display: none;
-}
 
 /* conteudo */
 main {
@@ -506,40 +505,46 @@ footer {
         height: 300px;
         padding: 30px 20px 10px 20px;
     }
-    .roda{
+
+    .roda {
         display: flex;
         flex-direction: column-reverse;
         gap: 25px;
-        
+
     }
 
-    .roda .roda-1{
+    .roda .roda-1 {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: end;
-        
+
     }
-    .roda-1 a{
+
+    .roda-1 a {
         font-size: 18px;
     }
-    .logos{
+
+    .logos {
         justify-content: flex-start;
         margin-top: -15%;
     }
-    .termos{
+
+    .termos {
         justify-content: center;
         font-size: 20px;
     }
-    .redes{
+
+    .redes {
         justify-content: flex-start;
         gap: 15px;
-    }  
-    .roda-3{
+    }
+
+    .roda-3 {
         display: flex;
         justify-content: end;
-        font-size: 15px;  
-    } 
+        font-size: 15px;
+    }
 
 
     .redes img {
@@ -562,7 +567,7 @@ footer {
         width: 350px;
         padding: 10px 10px 10px 10px;
     }
-   
+
     h4 {
         font-size: 20px;
     }
@@ -700,13 +705,15 @@ footer {
     }
 
 }
-@media(max-width:768px) and (min-width:500px){
-    .logos{
+
+@media(max-width:768px) and (min-width:500px) {
+    .logos {
         margin-top: -9%;
     }
 }
-@media(max-width:1299px) and (min-width:1081px){
-    .txt h4{
+
+@media(max-width:1299px) and (min-width:1081px) {
+    .txt h4 {
         font-size: 25px;
     }
 }
