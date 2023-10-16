@@ -108,10 +108,7 @@ header .navbar a {
 
 /* fim da animacao do apoie */
 
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #6C7A86;
-}
+
 
 #menu {
     z-index: 2;
@@ -266,20 +263,22 @@ body {
 #sanduiche {
     display: none;
 }
+
 main{
    width: 100%;
-    height: 860px;
+    height: 100vh;
+    background-color: red;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/obg.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .obg{
-    background-image: url(../img/obg.PNG);
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 400px;
     
 }
 .obg p{
@@ -292,7 +291,8 @@ main{
     align-items: center;
     height: 100px;
     border-radius: 20px;
-}
+} 
+
 
 
 
@@ -401,6 +401,37 @@ footer {
 
 
 @media(max-width:768px) {
+    main{
+        width: 100%;
+         height: 100%;
+         background-color: red;
+         font-family: 'Roboto', sans-serif;
+         background-image: url(../img/obg.PNG);
+        background-size: cover;
+        
+     }
+     .obg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding-top: 200px;
+        padding-bottom: 20px;
+        
+     }
+     .obg p{
+         font-size: 20px;
+         color: #FFF;
+         width: 200px;
+         background-color: #051540;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 50px;
+         border-radius: 20px;
+     } 
+
     footer {
         height: 300px;
         padding: 30px 20px 10px 20px;
@@ -491,7 +522,7 @@ footer {
         border-radius: 0 10px 10px 0;
     }
 
-    uo .menu-bar .menu-container {
+     .menu-bar .menu-container {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -535,4 +566,36 @@ footer {
     .logos{
         margin-top: -9%;
     }
+}
+@media(max-width:1608px) and (min-width:768px){
+    main{
+        width: 100%;
+         height: 100%;
+         background-color: red;
+         font-family: 'Roboto', sans-serif;
+         background-image: url(../img/obg.PNG);
+         background-size: cover;
+        
+     }
+     .obg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding-top: 400px;
+        padding-bottom: 20px;
+        
+     }
+     .obg p{
+         font-size: 20px;
+         color: #FFF;
+         width: 200px;
+         background-color: #051540;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 50px;
+         border-radius: 20px;
+     }   
 }
