@@ -266,19 +266,21 @@ header .navbar a {
 
 main {
     width: 100%;
-    height: 80vh;
+    height: auto;
     background-color: #051540;
     font-family: 'Roboto', sans-serif;
-    background-image: url(../img/obg.PNG);
+    background-image: url(../img/obg.PNG); 
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100%; 
 }
 
 .obg {
+    
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 400px;
+    padding-bottom: 400px;
 }
 
 .obg p {
@@ -292,6 +294,7 @@ main {
     height: 80px;
     border-radius: 20px;
 }
+
 
 
 
@@ -403,13 +406,13 @@ footer {
 @media(max-width:768px) {
     main {
         width: 100%;
-        height: 70vh;
-        background-color: red;
+        height: 60vh;
+        background-color: #051540;
         font-family: 'Roboto', sans-serif;
         background-image: url(../img/obg.png);
         background-repeat: no-repeat;
         background-size: 100%;
-       
+        position: relative;
 
     }
 
@@ -420,23 +423,24 @@ footer {
         justify-content: center;
         width: 100%;
         height: auto;
-        padding-top: 200px;
-        padding-bottom: 20px;
-
+        padding-top: 80%;
+        padding-bottom: 10px;
 
     }
 
     .obg p {
+       
         font-size: 20px;
         color: #FFF;
         width: 200px;
-        background-color: #051540;
+        background-color: #0044ff;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 50px;
         border-radius: 20px;
     }
+  
 
     footer {
         height: 300px;
