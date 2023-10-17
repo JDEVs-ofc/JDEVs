@@ -15,7 +15,7 @@ header {
 }
 
 .tamanho-do-main {
-    height: auto;
+    height: 1000px;
     position: relative;
 }
 
@@ -57,7 +57,53 @@ header {
     z-index: 1000000000;
 }
 
-.textinho{
+#projetos-txt{
+    display: flex;
+    position: absolute;
+    top: 550px;
+    left: 500px;
+    width: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.carousel-container {
+    display: flex;
+    z-index: 1;
+}
+
+.tudo{
+    display: block;
+    position: absolute;
+    top: 620px;
+    left: 150px;
+}
+
+#tablet {
+    display: flex;
+    position: relative;
+    top: 20px;
+    right: 5px;
+}
+
+.tudo-2{
+    display: block;
+    position: absolute;
+    top: 620px;
+    left: 790px;
+}
+
+#pulseira{
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 245px;
+}
+
+.textinho {
     display: flex;
     border: solid 2px #051540;
     background-color: #051540;
@@ -67,18 +113,15 @@ header {
     height: 50px;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 
-#tablet{
-    
-}
-
-#carrossel-1{
+#carrossel-1 {
     left: 10px;
     position: relative;
 }
 
-.flecha{
+.flecha {
     position: relative;
     border-radius: 50%;
     border-color: #051540;
@@ -91,6 +134,20 @@ header {
     font-weight: bold;
 }
 
+#right-1 {
+    display: block;
+    position: relative;
+    top: 45px;
+    left: 19px;
+}
+
+#left-1{
+    display: block;
+    position: relative;
+    top: 95px;
+    right: 420px;
+
+}
 
 li {
     list-style: none;
@@ -355,6 +412,7 @@ body {
 main {
     background-color: #D3D3D3;
     height: auto;
+    position: relative;
 
 }
 
@@ -367,7 +425,6 @@ footer {
     color: #fff;
     height: 200px;
     padding: 15px 40px 20px 40px;
-
 }
 
 .roda {
