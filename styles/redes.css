@@ -16,7 +16,7 @@ header {
 
 .tamanho-do-main {
     height: 1000px;
-    position: relative;
+    width: 1347px;
 }
 
 .olho {
@@ -61,7 +61,7 @@ header {
     display: flex;
     position: absolute;
     top: 550px;
-    left: 500px;
+    left: 545px;
     width: 300px;
     font-size: 30px;
     font-weight: bold;
@@ -78,39 +78,21 @@ header {
 .tudo{
     display: block;
     position: absolute;
-    top: 620px;
-    left: 150px;
-}
-
-#tablet {
-    display: flex;
-    position: relative;
-    top: 20px;
-    right: 5px;
-}
-
-.tudo-2{
-    display: block;
-    position: absolute;
-    top: 620px;
-    left: 790px;
-}
-
-#pulseira{
-    display: flex;
-    position: relative;
-    top: 20px;
-    left: 245px;
+    top: 650px;
+    left: 430px;
 }
 
 .textinho {
     display: flex;
+    position: relative;
     border: solid 2px #051540;
     background-color: #051540;
     color: #fff;
     font-weight: bold;
     width: 130px;
     height: 50px;
+    top: 20px;
+    left: -10px;
     align-items: center;
     justify-content: center;
     z-index: 2;
@@ -145,8 +127,30 @@ header {
     display: block;
     position: relative;
     top: 95px;
-    right: 420px;
+    right: 570px;
 
+}
+
+.info {
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    padding-bottom: 120px;
+}
+
+.text {
+    background-color: #051540;
+    color: #fff;
+    padding: 30px;
+    width: 70%;
+    border-radius: 35px;
+    font-size: 35px;
+    text-align: justify;
+}
+
+.txt {
+    font-size: 27px;
 }
 
 li {
