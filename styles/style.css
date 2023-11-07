@@ -415,6 +415,7 @@ main {
     align-items: center;
     padding: 30px;
     box-shadow: 0px 0px 20px 10px blue;
+    cursor: pointer;
 }
 
 .t {
@@ -511,6 +512,12 @@ footer {
     text-shadow: 0px 0px 15px #fff;
 }
 
+.jdev {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
 .redes {
     display: flex;
     justify-content: center;
@@ -538,6 +545,11 @@ footer {
 .Politica-privacidade {
     border-right: 3px solid #fff;
     padding-right: 10px;
+    cursor: pointer;
+}
+
+.fale {
+    cursor: pointer;
 }
 
 .idioma {

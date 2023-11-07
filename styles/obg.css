@@ -269,13 +269,12 @@ main {
     height: auto;
     background-color: #051540;
     font-family: 'Roboto', sans-serif;
-    background-image: url(../img/obg.PNG); 
+    background-image: url(../img/obg.PNG);
     background-repeat: no-repeat;
-    background-size: 100%; 
+    background-size: 100%;
 }
 
 .obg {
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -294,10 +293,6 @@ main {
     height: 80px;
     border-radius: 20px;
 }
-
-
-
-
 
 /*rodape*/
 footer {
@@ -357,6 +352,12 @@ footer {
     text-shadow: 0px 0px 15px #fff;
 }
 
+.jdev {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
 .redes {
     display: flex;
     justify-content: center;
@@ -385,7 +386,11 @@ footer {
 .Politica-privacidade {
     border-right: 3px solid #fff;
     padding-right: 10px;
+    cursor: pointer;
+}
 
+.fale {
+    cursor: pointer;
 }
 
 .idioma {
@@ -410,7 +415,7 @@ footer {
     }
 
     .obg {
-       
+
         display: flex;
         align-items: center;
         justify-content: center;
@@ -422,7 +427,7 @@ footer {
     }
 
     .obg p {
-       
+
         font-size: 20px;
         color: #FFF;
         width: 200px;
@@ -433,7 +438,7 @@ footer {
         height: 50px;
         border-radius: 20px;
     }
-  
+
 
     footer {
         height: 300px;

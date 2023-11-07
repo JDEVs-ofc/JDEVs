@@ -243,10 +243,11 @@ body {
     .nav ul {
         display: block;
     }
+
     .menu-b {
         display: none;
     }
-    
+
     #burguer {
         color: white;
         display: none;
@@ -254,19 +255,19 @@ body {
         padding: 10px;
         z-index: 32;
     }
-    
+
     #apoie {
         height: 40px;
         width: 55px;
         text-align: center;
         align-items: center;
     }
-    
+
     #burguer :hover {
         background-color: white;
         color: black;
     }
-    
+
     #sanduiche {
         display: none;
     }
@@ -405,6 +406,12 @@ footer {
     text-shadow: 0px 0px 15px #fff;
 }
 
+.jdev {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
 .redes {
     display: flex;
     justify-content: center;
@@ -441,12 +448,17 @@ footer {
     border: 3px solid #E1EBFA;
     border-radius: 50px;
     box-shadow: 0px 0px 20px #785499;
-
 }
 
 .logos-2 {
     font-size: 29px;
     text-shadow: 0px 0px 15px #fff;
+}
+
+.jdev {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
 }
 
 .redes {
@@ -481,7 +493,11 @@ footer {
 .Politica-privacidade {
     border-right: 3px solid #fff;
     padding-right: 10px;
+    cursor: pointer;
+}
 
+.fale {
+    cursor: pointer;
 }
 
 .idioma {
